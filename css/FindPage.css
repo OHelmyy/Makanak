@@ -1,0 +1,107 @@
+.search-container {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex-grow: 1;
+    background-color: #dfdfe1;
+    margin-right:20px ;
+    border-radius: 15px;
+}
+.search-container .btn-danger:hover {
+    color: red;
+    background-color: white;
+
+}
+.search-container .form-select {
+    border-radius: 7px;
+    margin-left: 20px;
+    width: 80px;
+    border-color: red;
+    color: red;
+
+}
+.select-type-container{
+    display: flex;
+}
+.select-type-container p{
+    margin-right: 7px;
+    font-weight: bold;
+    color: black;
+}
+.select-type-container span{
+    color: red;
+    font-weight: bold;
+}
+.property-type-item {
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    text-decoration: 0.6s ease;
+}
+.property-type-item:hover {
+    color: red;
+    text-decoration: underline;
+
+
+}
+
+.property-type-item.active:active {
+    font-weight: bold;
+    color: red; 
+    text-decoration: underline; 
+}
+
+.property-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.property-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.property-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.property-location {
+    color: #777;
+}
+
+
+.property-actions .btn {
+    margin-right: 5px;
+    font-size: 0.9rem;
+    border-color: #d9534f;
+    color: #d9534f;
+}
+
+.property-actions .btn:hover {
+    background-color: #d9534f;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    .property-card {
+        width: 100%;
+    }
+}
