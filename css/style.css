@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #f1fbff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-inner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand span {
+    color: #dc3545;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dc3545;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #dc3545;
+}
+
+.navbar-light .navbar-toggler {
+    background: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background: #000;
+}
+
+.section-header h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-header h2::after {
+    content: '';
+    background: #dc3545;
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin: 20px auto;
+}
+
+.services .card {
+    border: none;
+    padding: 50px 20px;
+    transition: all 0.4s ease;
+}
+
+.services .card:hover {
+    background: #dc3545;
+    color: #fff;
+}
+
+
+.services .card h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.success {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 0;
+    transition: all 0.4s ease;
+}
+
+.success:hover {
+    background: rgb(157, 24, 24);
+    color: #fff;
+}
+
+.list {
+    background: #ffff;
+    padding: 40px;
+    text-align: center;
+    margin: 50px 0;
+    color: black;
+}
+
+.list h5 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form input[type=text], form select, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+form button[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button[type=submit]:hover {
+    background-color: #dc3545;
+}
