@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
     <title>Register to List Your Property</title>
     
     <style>
@@ -41,7 +41,7 @@
     </style>
 </head>
 <body>
-<?php require_once 'includes/header.php'; ?>
+<?php require_once 'php/includes/header.php'; ?>
 
     <div class="container-fluid">
         <div class="row">
@@ -56,6 +56,7 @@
         </div>
     </div>
 
-    <?php require_once 'includes/footer.php'; ?> <!-- Include footer -->
+    
+<?php require_once 'php/includes/footer.php'; ?> 
 </body>
 </html>

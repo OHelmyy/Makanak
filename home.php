@@ -112,20 +112,8 @@ CARD;
     </div>
 </section>
 
-<?php
-// Footer section
-function footer() {
-    echo <<<FOOTER
-    <footer class="bg-light p-2 text-center">
-        <div class="container">
-            <p>© 2023 MKANAK Real-Estate. All rights reserved.</p>
-        </div>
-    </footer>
-FOOTER;
-}
-footer();
-?>
 
+<?php require_once 'php/includes/footer.php'; ?> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
